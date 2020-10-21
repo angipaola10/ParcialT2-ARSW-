@@ -5,7 +5,7 @@
 Este proyecto implementa una arquitectura cliente-servidor, está compuesto de un backend REST en el que se cosume una API externa,
 el diseño consiste en una clara separación de capas en las que se utiliza el principio de inyección de dependencias, lo que garantiza 
 un bajo acoplamiento. Esta arquitectura también cuenta con un frontend en el que se encuentra programado un cliente capaz de consumir 
-los servicios prestados por la capa controladora del backend, esto con el fin de llevar los datos a la vista que los solicita de modo que el usuario pueda interactuar con ellos.   
+los servicios prestados por la capa controladora del backend, también consume una API externa, esto con el fin de llevar los datos a la vista que los solicita de modo que el usuario pueda interactuar con ellos.   
 
 ## Instrucciones para compilar y ejecutar el programa localmente
 
